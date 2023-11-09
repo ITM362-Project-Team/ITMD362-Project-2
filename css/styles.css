@@ -110,3 +110,22 @@ footer {
   text-align: center;
   padding: 20px 0;
 }
+.logo {
+  display: inline-block;
+  vertical-align: middle;
+}
+.page-title {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  font-weight: bold;
+  color: #2C6CA3;
+  margin: 0;
+  margin-left: 10px; 
+}
+.container.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
