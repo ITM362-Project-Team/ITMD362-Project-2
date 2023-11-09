@@ -113,7 +113,7 @@ h2 {
     padding: .5rem 1rem;
   }
 
-  @media(max-width:780px) {
+  @media(max-width:800px) {
     .first-section {
       display: flex;
       flex-wrap: wrap;
