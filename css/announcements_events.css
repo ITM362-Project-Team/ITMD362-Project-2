@@ -14,8 +14,7 @@ h2 {
 
 .center-img {
   float: left;
-  margin: 10% 10%;
-  width: 25%;
+  padding-left: 15%;
 }
 
 /*Align sections*/
