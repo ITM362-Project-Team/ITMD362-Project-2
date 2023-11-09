@@ -113,3 +113,19 @@ h2 {
     padding: .5rem 1rem;
   }
 
+  @media(max-width:780px) {
+    .first-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .second-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .third-section {
+      display: flex;
+      flex-wrap: wrap;
+    }
+  }
+
+
