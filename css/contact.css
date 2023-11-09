@@ -2,24 +2,49 @@
 #contact-form {
     margin-bottom: 1em;
     border: 3px solid #2C6CA3;
-    padding: .25em;
 }
 
-#contact-form h3 {
-    margin: .25em;
+#info-contact-form {
+    border-bottom: 2px solid #2C6CA3;
+    padding-top: .25em;
+    background-color: #2C6CA3;
+}
+
+#info-contact-form h3 {
+    margin-bottom: .25em;
     font-size: 2em;
     text-align: center;
 }
 
-#contact-form p {
+#info-contact-form  p {
     margin-bottom: .5em;
-    font-size: 1.2em;
+    font-size: 1.20em;
     text-align: center;
+}
+
+#question-form  label {
+    display: block;
+    margin-bottom: .2em;
+    text-align: center;
+    font-size: 1.15em;
+}
+
+#question-form input {
+    width: 90%;
+}
+
+#question-form textarea {
+    width: 90%;
+}
+
+#question-form {
+    padding: .25em;
 }
 
 .input-container {
     margin: .35em 0em;
     border-radius: 10px;
+    text-align: center;
 }
 
 #submit-button {
