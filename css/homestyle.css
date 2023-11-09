@@ -157,3 +157,20 @@ footer {
 .slide:first-child {
   opacity: 1;
 }
+.prev, .next {
+position: absolute;
+top: 50%;
+font-size: 30px;
+background: transparent;
+border: none;
+cursor: pointer;
+transform: translateY(-50%);
+}
+
+.prev {
+left: 10%;
+}
+
+.next {
+right: 10%;
+}

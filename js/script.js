@@ -6,18 +6,23 @@ $(document).ready(function(){
   });
  });
 //slider
-let currentIndex = 0;
-const slides = document.querySelectorAll('.slide');
-
-function showSlide(index) {
-slides[currentIndex].style.opacity = 0;
-    currentIndex = index;
-    slides[currentIndex].style.opacity = 1;
-}
+var slideIndex = 0;
+showSlide(slideIndex);
 
 function nextSlide() {
-    showSlide((currentIndex + 1) % slides.length);
+  showSlide(slideIndex += 1);
 }
 
-// Run nextSlide function every 3 seconds
-setInterval(nextSlide, 3000);
+function prevSlide() {
+  showSlide(slideIndex -= 1);
+}
+
+function showSlide(n) {
+  var slides = document.getElementsByClassName("slide");
+  if (n >= slides.length) {slideIndex = 0}
+  if (n < 0) {slideIndex = slides.length - 1}
+  for (var i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";
+  }
+  slides[slideIndex].style.display = "block";
+}
