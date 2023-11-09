@@ -150,7 +150,7 @@ footer {
 
 .slide img {
   width: 50%;
-  height: 50%;
+  height: fit-content;
   object-fit: cover;
 }
 
