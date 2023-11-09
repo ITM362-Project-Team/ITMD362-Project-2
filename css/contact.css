@@ -1,0 +1,32 @@
+
+#contact-form {
+    border: 3px solid #2C6CA3;
+    padding: .25em;
+}
+
+h3 {
+    font-size: 2em;
+    text-align: center;
+}
+
+p {
+    font-size: 1.2em;
+    text-align: center;
+}
+
+.input-container {
+    margin: .15em;
+    border-radius: 10px;
+}
+
+#submit-button {
+    margin: .2em;
+    text-align: center;
+}
+
+#submit {
+    width: 90%;
+    border-radius: 8px;
+    height: 2.5em;
+    background-color: #2C6CA3;
+}
