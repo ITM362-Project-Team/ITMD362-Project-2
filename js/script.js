@@ -6,23 +6,22 @@ $(document).ready(function(){
   });
  });
 //slider
-var slideIndex = 0;
-showSlide(slideIndex);
+let slideIndex = 0;
+showSlides();
 
-function nextSlide() {
-  showSlide(slideIndex += 1);
-}
-
-function prevSlide() {
-  showSlide(slideIndex -= 1);
-}
-
-function showSlide(n) {
-  var slides = document.getElementsByClassName("slide");
-  if (n >= slides.length) {slideIndex = 0}
-  if (n < 0) {slideIndex = slides.length - 1}
-  for (var i = 0; i < slides.length; i++) {
-    slides[i].style.display = "none";
+function showSlides() {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
   }
-  slides[slideIndex].style.display = "block";
+  slideIndex++;
+  if (slideIndex > slides.length) {slideIndex = 1}    
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+  setTimeout(showSlides, 2000); // Change image every 2 seconds
 }
