@@ -1,3 +1,4 @@
+/* Announcements and Events */
 h2 {
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -14,8 +15,10 @@ h2 {
 
 .center-img {
   float: left;
-  padding-left: 15%;
+  width: 25%;
+  padding-left: 15%
 }
+
 
 /*Align sections*/
 .first-section {
@@ -39,15 +42,14 @@ h2 {
     bottom: 0;
 }
 
-footer {
+.footer {
  position: relative;
  float: left;
- width: 50%;
+ width: 100%;
 }
 
 .navbar {
-  color: #2C6CA3;
-  overflow: hideen;
+  background-color: #2C6CA3;
 }
 
 .navbar-container {
@@ -57,9 +59,18 @@ footer {
   padding: 20%;
 }
 
+.navbar ul {
+  list-style: none;
+  margin: 1em 1em;
+  padding: 1em 1em;
+  position: relative;
+  display: flex;
+}
+
+
 /*Themes box*/
 .wrap-collabsible {
-    margin-bottom: 1.2rem 0;
+    margin-bottom: 1.2rem;
   }
   
   input[type='checkbox'] {
@@ -147,5 +158,4 @@ footer {
       flex-wrap: wrap;
     }
   }
-
 
