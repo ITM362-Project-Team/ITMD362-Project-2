@@ -16,20 +16,28 @@
     text-align: center;
 }
 
-#info-contact-form  p {
+#info-contact-form p {
     margin-bottom: .5em;
     font-size: 1.20em;
     text-align: center;
 }
 
-#question-form  label {
+#question-form label {
     display: block;
     margin-bottom: .2em;
     text-align: center;
     font-size: 1.15em;
 }
 
-#question-form input {
+#name {
+    width: 90%;
+}
+
+#email {
+    width: 90%;
+}
+
+#number {
     width: 90%;
 }
 
@@ -58,4 +66,37 @@
     height: 2.5em;
     cursor: pointer;
     background-color: #2C6CA3;
+}
+
+@media screen and (min-width: 800px) {
+    #submit-button {
+        margin: 1em;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    #name {
+        width: 50%;
+    }
+    
+    #email {
+        width: 50%;
+    }
+    
+    #number {
+        width: 50%;
+    }
+    
+    #question-form textarea {
+        width: 50%;
+    }
+    
+    #submit-button {
+        width: 100%; 
+    }
+
+    #submit {
+        width: 50%; 
+    }
+
 }
