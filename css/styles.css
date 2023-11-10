@@ -40,7 +40,7 @@ header {
   padding: 10px 5px; 
   border-radius: 5px; 
   background-color: #2C6CA3;
-  font:white;
+  color:white;
 }
 
 .nav-links a {
@@ -251,7 +251,7 @@ h2 {
 
 /*Themes box*/
 .wrap-collabsible {
-    margin-bottom: 1.2rem 0;
+    margin-bottom: 1.2rem;
   }
   
   input[type='checkbox'] {
