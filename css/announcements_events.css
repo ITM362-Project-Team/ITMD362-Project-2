@@ -48,12 +48,14 @@ body {
   max-width: 75%;
 }
 
-.img-adjust {
+.img-2016 {
   height: auto;
   float: left;
+  max-width: 800px;
 }
 
-.congress-2018 img {
+
+.img-2018 {
   margin-left: 50%;
   padding-left: 5px;
   padding-right: 5px;
@@ -166,4 +168,35 @@ body {
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
   }
+
+  @media (max-width: 600px) {
+    .img-2016 {
+      max-width: 100px;
+    }
+  }
+
+  @media (min-width: 600px) {
+    .img-2016 {
+      max-width: 125px;
+    }
+  }
+
+  @media (min-width: 700px) {
+    .img-2016 {
+      max-width: 125px;
+    }
+  }
+
+  @media (min-width: 800px) {
+    .img-2016 {
+      max-width: 200px;
+    }
+  }
+
+  @media (min-width: 1000px) {
+    .img-2016 {
+      max-width: 500px;
+    }
+  }
+
 
