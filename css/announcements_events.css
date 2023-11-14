@@ -59,6 +59,7 @@ body {
   margin-left: 50%;
   padding-left: 5px;
   padding-right: 5px;
+  max-width: 350px;
 }
 
 .congress-2018 h3{
@@ -173,11 +174,17 @@ body {
     .img-2016 {
       max-width: 100px;
     }
+    .img-2018 {
+      max-width: 125px;
+    }
   }
 
   @media (min-width: 600px) {
     .img-2016 {
       max-width: 125px;
+    }
+    .img-2018 {
+      max-width: 150px;
     }
   }
 
@@ -185,17 +192,26 @@ body {
     .img-2016 {
       max-width: 125px;
     }
+    .img-2018 {
+      max-width: 175px;
+    }
   }
 
   @media (min-width: 800px) {
     .img-2016 {
       max-width: 200px;
     }
+    .img-2018 {
+      max-width: 225px;
+    }
   }
 
   @media (min-width: 1000px) {
     .img-2016 {
       max-width: 500px;
+    }
+    .img-2018 {
+      max-width: 300px;
     }
   }
 
