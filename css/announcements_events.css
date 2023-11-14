@@ -80,15 +80,36 @@ body {
 
 }
 
+.wrapper-congress h1 {
+  text-align: center;
+  font: arial, sans-serif;
+  font-size: 32px;
+  margin: 10px
+}
+
 .wrapper-congress h2 {
   text-align: center;
   font: Arial, sans-serif;
   color: maroon;
-  font-size: 24px;
+  font-size: 20px;
 }
 
-.wrapper li {
+.wrapper-congress h3 {
+  text-align: center;
+  font: arial, sans-serif;
+  margin: 5px;
+}
+
+.wrapper-congress li {
   list-style: disc;
+}
+
+.wrapper-committee {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: - 2px 4px rgba(0,0,0,0.1)
 }
 
 /*Themes box*/
