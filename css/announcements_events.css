@@ -44,13 +44,19 @@ body {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
-  max-width: 75%;
   margin: 50px auto;
+  max-width: 75%;
 }
 
-.img-2016 {
+.img-adjust {
   height: auto;
   float: left;
+}
+
+.congress-2018 img {
+  margin-left: 50%;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 
 .congress-2018 h3{
@@ -67,12 +73,18 @@ body {
   padding: 5px;
 }
 
-.wrapper-committee {
-  background-color: #ffffff;
-  padding: 20px;
-  border-radius: 10px;
-  margin-bottom: 20px;
-  box-shadow: - 2px 4px rgba(0,0,0,0.1)
+.committees h3 {
+  font-size: 20px;
+  padding-bottom: 10px;
+}
+
+.committees li {
+  padding: 5px
+}
+
+.committees p {
+  padding-top: 10px;
+  text-decoration: underline;
 }
 
 /*Themes box*/
@@ -153,13 +165,5 @@ body {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
-  }
-
-  
-
-  @media(max-width:800px) {
-    .img-container {
-      max-width: 100%;
-    }
   }
 
