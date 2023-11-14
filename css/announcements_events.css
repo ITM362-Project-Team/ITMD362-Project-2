@@ -1,72 +1,4 @@
-/* Announcements and Events 
-h2 {
-  text-align: center;
-  font-family:Georgia, 'Times New Roman', Times, serif;
-}
-
-.red-text {
-  color: maroon;
-  
-}
-
-.center {
-  text-align: center;
-}
-
-.center-img {
-  float: left;
-  width: 25%;
-  padding-left: 15%
-}
-
-
-/*Align sections
-.first-section {
-  width: 45%;
-  height: 50%;
-  float: left;
-}
-
-.second-section{
-  width: 50%;
-  height: 50%;
-  float: right;
-}
-
-.third-section{
-    position: relative;
-    float: left;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    bottom: 0;
-}
-
-.footer {
- position: relative;
- float: left;
- width: 100%;
-}
-
-.navbar {
-  background-color: #2C6CA3;
-}
-
-.navbar-container {
-  float: left;
-  width: 80%;
-  border-bottom: 2px solid black;
-  padding: 20%;
-}
-
-.navbar ul {
-  list-style: none;
-  margin: 1em 1em;
-  padding: 1em 1em;
-  position: relative;
-  display: flex;
-}
-*/
+/*Announcements and Events*/
 body {
   font-family: Arial, sans-serif;
 }
@@ -77,6 +9,9 @@ body {
   border-radius: 10px;
   margin-bottom: 20px;
   box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  max-width: 1200px;
+  margin: 5px auto;
+  padding: 5px 20px;
 }
 
 .wrapper-congress h1 {
@@ -96,16 +31,16 @@ body {
 .wrapper-congress h3 {
   text-align: center;
   font: arial, sans-serif;
-  margin: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
 }
 
 .wrapper-congress p {
-  margin-left: 20%;
-  margin-right: 20%;
   margin-bottom: 15px;
+  text-align: center;
 }
 
-.img-container-2018 {
+.img-container {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   gap: 10px;
@@ -113,12 +48,25 @@ body {
   margin: 50px auto;
 }
 
-.img-2018 {
+.img-2016 {
   max-width: 100%;
   height: auto;
   float: left;
   width: 100%;
+}
 
+.congress-2018 h3{
+  padding-top: 10px;
+  text-decoration: underline;
+}
+
+.congress-2018 p {
+  text-align: center;
+}
+
+.congress-2018 li {
+  text-align: center;
+  padding: 5px;
 }
 
 .wrapper-committee {
@@ -155,8 +103,6 @@ body {
     text-transform: uppercase;
     text-align: center;
     padding: 1rem;
-    margin-left: 20%;
-    margin-right: 20%;
     color: white;
     background:#2C6CA3;
   
@@ -209,8 +155,6 @@ body {
     border-bottom-left-radius: 7px;
     border-bottom-right-radius: 7px;
     padding: .5rem 1rem;
-    margin-left: 20%;
-    margin-right: 20%;
   }
 
   
