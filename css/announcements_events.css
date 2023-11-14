@@ -1,4 +1,4 @@
-/* Announcements and Events */
+/* Announcements and Events 
 h2 {
   text-align: center;
   font-family:Georgia, 'Times New Roman', Times, serif;
@@ -20,7 +20,7 @@ h2 {
 }
 
 
-/*Align sections*/
+/*Align sections
 .first-section {
   width: 45%;
   height: 50%;
@@ -66,13 +66,36 @@ h2 {
   position: relative;
   display: flex;
 }
+*/
+body {
+  font-family: Arial, sans-serif;
+}
 
+.wrapper-congress {
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+
+}
+
+.wrapper-congress h2 {
+  text-align: center;
+  font: Arial, sans-serif;
+  color: maroon;
+  font-size: 24px;
+}
+
+.wrapper li {
+  list-style: disc;
+}
 
 /*Themes box*/
 .wrap-collabsible {
     margin-bottom: 1.2rem;
   }
-  
+
   input[type='checkbox'] {
     display: none;
   }
@@ -88,8 +111,8 @@ h2 {
   
     padding: 1rem;
   
-    color: black;
-    background:dodgerblue;
+    color: white;
+    background:#2C6CA3;
   
     cursor: pointer;
   
