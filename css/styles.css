@@ -484,6 +484,14 @@ img {
     .img-2018 {
       max-width: 300px;
     }
+
+    #contact-form {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 60%;
+    }
+
     #name {
       width: 50%;
     }
