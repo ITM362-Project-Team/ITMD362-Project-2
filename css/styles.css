@@ -3,6 +3,7 @@
   max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
+  
 }
 
 header {
@@ -26,6 +27,7 @@ header {
 }
 
 .nav-links {
+  background-color: white;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -197,21 +199,21 @@ img {
 
 .wrapper-congress h1 {
   text-align: center;
-  font: arial, sans-serif;
+  font-family: Arial, sans-serif;
   font-size: 32px;
   margin: 10px
 }
 
 .wrapper-congress h2 {
   text-align: center;
-  font: Arial, sans-serif;
+  font-family: Arial, sans-serif;
   color: maroon;
   font-size: 20px;
 }
 
 .wrapper-congress h3 {
   text-align: center;
-  font: arial, sans-serif;
+  font-family: Arial, sans-serif;
   margin-top: 10px;
   margin-bottom: 10px;
 }
@@ -444,6 +446,17 @@ img {
     .img-2018 {
       max-width: 125px;
     }
+    .nav-links {
+      flex-direction: column; 
+      align-items: center;
+    }
+  
+    .nav-links li {
+      width: 50%; 
+      text-align: center;
+      margin-bottom: 5px;
+    }
+    
   }
 
   @media (min-width: 600px) {
@@ -453,6 +466,14 @@ img {
     .img-2018 {
       max-width: 150px;
     }
+    .nav-links {
+      flex-direction: row; 
+    }
+  
+    .nav-links li {
+      width: 100%; 
+      margin-bottom: 5px;
+    }
   }
 
   @media (min-width: 700px) {
@@ -461,6 +482,14 @@ img {
     }
     .img-2018 {
       max-width: 175px;
+    }
+    .nav-links {
+      flex-direction: row; 
+    }
+  
+    .nav-links li {
+      width: 100%; 
+      margin-bottom: 5px;
     }
   }
 
@@ -474,7 +503,15 @@ img {
 
     #submit-button {
       margin: 1em;
-  }
+    }
+    .nav-links {
+      flex-direction: row; 
+    }
+  
+    .nav-links li {
+      width: 100%; 
+      margin-bottom: 5px;
+    }
   }
 
   @media (min-width: 1000px) {
@@ -483,6 +520,14 @@ img {
     }
     .img-2018 {
       max-width: 300px;
+    }
+    .nav-links {
+      flex-direction: row; 
+    }
+  
+    .nav-links li {
+      width: 100%; 
+      margin-bottom: 5px;
     }
 
     #contact-form {
