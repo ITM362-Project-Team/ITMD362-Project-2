@@ -197,21 +197,21 @@ img {
   padding: 5px 20px;
 }
 
-.wrapper-congress h1 {
+.wrapper-congress h2 {
   text-align: center;
   font-family: Arial, sans-serif;
   font-size: 32px;
   margin: 10px
 }
 
-.wrapper-congress h2 {
+.wrapper-congress h3 {
   text-align: center;
   font-family: Arial, sans-serif;
   color: maroon;
   font-size: 20px;
 }
 
-.wrapper-congress h3 {
+.wrapper-congress h4 {
   text-align: center;
   font-family: Arial, sans-serif;
   margin-top: 10px;
